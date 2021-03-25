@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+	ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+	<h1 class="display-4">Welcome</h1>
+	<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<!-- ここから追加 -->
+
+<!-- wwwroot のファイル -->
+<img src="~/image/sample.png" asp-append-version="true" />
+
+<!-- wwwroot 以外のファイル -->
+<img src="~/site1/image/sample1.png" asp-append-version="true" />
+
+<!-- ここからまで -->

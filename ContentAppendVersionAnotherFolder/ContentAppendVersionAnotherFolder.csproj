@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+		<Description>wwwroot フォルダにある静的ファイル以外にも asp-append-version を適用するサンプルです。</Description>
+		<Company>ソーサリーフォース (https://sorceryforce.net/)</Company>
+		<Authors>おのでら (ソーサリーフォース)</Authors>
+		<Copyright>Copyright (C) 2021 おのでら</Copyright>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Areas\Site1\Content\image\sample1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Site1\Content\css\" />
+    <Folder Include="Areas\Site1\Content\js\" />
+  </ItemGroup>
+
+</Project>
